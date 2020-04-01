@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html dir="ltr" lang="en-us">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="default.css">
+    <link rel="stylesheet" href="bg_words.css">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+        integrity="sha512-L7MWcK7FNPcwNqnLdZq86lTHYLdQqZaz5YcAgE+5cnGmlw8JT03QB2+oxL100UeB6RlzZLUxCGSS4/++mNZdxw== sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous" />
+    <title>Contact | Jason's Portfolio</title>
+</head>
+
+<body class="bg-color">
+    <!-- main title and navigation bar -->
+    <header class="bg-color">
+        <!-- main title -->
+        <h1 id="title-top">Jason's</h1>
+        <h1 id="title-bottom">Portfolio</h1>
+
+        <!-- menu icon only appears on small window and underscore only appears on large window-->
+        <nav class="right-nav">
+            <div class="btn-wrapper">
+                <a href="index.html" class="hover-wrapper"></a>
+                <div class="menu-icon">
+                    <i class="fas fa-home"></i>
+                </div>
+                <a href="index.html" class="menu-string">Home</a>
+                <div class="underscore"></div>
+            </div>
+            <div class="btn-wrapper">
+                <a href="about.html" class="hover-wrapper"></a>
+                <div class="menu-icon">
+                    <i class="fas fa-address-card"></i>
+                </div>
+                <a href="about.html" class="menu-string">About</a>
+                <div class="underscore"></div>
+            </div>
+            <div class="btn-wrapper">
+                <a href="projects.html" class="hover-wrapper"></a>
+                <div class="menu-icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <a href="projects.html" class="menu-string">Projects</a>
+                <div class="underscore"></div>
+            </div>
+            <div class="btn-wrapper">
+                <a href="blog.html" class="hover-wrapper"></a>
+                <div class="menu-icon">
+                    <i class="far fa-newspaper"></i>
+                </div>
+                <a href="blog.html" class="menu-string">Blog</a>
+                <div class="underscore"></div>
+            </div>
+            <div class="btn-wrapper">
+                <a href="contact.html" class="hover-wrapper"></a>
+                <div class="menu-icon cur-category">
+                    <i class="far fa-envelope"></i>
+                </div>
+                <a href="contact.html" class="menu-string cur-category">Contact</a>
+                <div class="underscore"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- background big texts -->
+    <aside>
+        <h1><span id="bg-big-word" class="fade-in-bg-big-word">Mail</span></h1>
+        <h1><span id="bg-mid-word" class="fade-in-bg-mid-word">me</span></h1>
+    </aside>
+
+    <!-- About me and skills I have -->
+    <main>
+        <section>
+            <article class="article-one-column">
+                <h1>I love to hear from you!</h1>
+                <form action="https://usebasin.com/f/2baf2f29f508" method="POST">
+                    <div class="contact-wrapper">
+                        <div class="contact-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+                    <div class="contact-wrapper">
+                        <div class="contact-icon">
+                            <i class="fas fa-at"></i>
+                        </div>
+                        <input type="email" id="email" name="email" placeholder="Your email address" required>
+                    </div>
+                    <div class="contact-wrapper">
+                        <div class="contact-icon">
+                            <i class="fas fa-comment-dots"></i>
+                        </div>
+                        <textarea id="message" name="message" placeholder="Your message" required></textarea>
+                    </div>
+                    <div class="btn-wrapper">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <!-- links to github, linkedIn, twitter and facebook -->
+    <footer class="bg-color">
+        <a href="https://github.com/jasonkim7288" class="links-icon links-icon-background to-left">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/im-jasonkim" class="links-icon links-icon-background">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://twitter.com/jasonkim7288" class="links-icon links-icon-background">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.facebook.com/profile.php?id=100003947625728"
+            class="links-icon links-icon-background to-right">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+    </footer>
+</body>
+
+</html>
